@@ -1,6 +1,6 @@
 # 🏥 Hospital Patient Arrival Forecasting & Prescriptive Staffing Optimization
 
-This project was developed while volunteering for an *Emergency Room (ER) department at a government hospital in England. It combines **time series forecasting* and *prescriptive analytics* to:
+This project was developed while volunteering for an *Emergency Room (ER) department at a hospital in England. It combines **time series forecasting* and *prescriptive analytics* to:
 
 * *Predict hourly patient arrival volumes*, and
 * *Recommend the optimal number of doctors* per hour to ensure timely care and efficient resource allocation.
