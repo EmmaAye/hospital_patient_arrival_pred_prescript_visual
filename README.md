@@ -1,4 +1,4 @@
-# 🏥 Hospital Patient Arrival Forecasting & Prescriptive Staffing Optimization
+# Hospital Patient Arrival Forecasting & Prescriptive Staffing Optimization
 
 This project was developed while volunteering for an *Emergency Room (ER) department at a hospital in England. It combines **time series forecasting* and *prescriptive analytics* to:
 
@@ -7,7 +7,7 @@ This project was developed while volunteering for an *Emergency Room (ER) depart
 
 ---
 
-## 📌 Objectives
+## Objectives
 
 * Forecast patient arrival trends on an hourly basis.
 * Translate predictions into *prescriptive staffing recommendations*.
@@ -19,7 +19,7 @@ This project was developed while volunteering for an *Emergency Room (ER) depart
 
 ---
 
-## 🧠 Problem Framing
+## Problem Framing
 
 Accurately forecasting patient arrivals is crucial for:
 
@@ -32,7 +32,7 @@ This project integrates machine learning and domain-specific business rules to b
 
 ---
 
-## 🔢 Methodology
+## Methodology
 
 ### 1. *Feature Engineering*
 
@@ -69,7 +69,7 @@ Models were trained on historical ER arrival logs to predict hourly arrivals wit
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 * Weekday and hourly patterns show consistent peak times (late mornings and early evenings).
 * Forecasting performance improved significantly with lag and rolling features.
@@ -78,7 +78,7 @@ Models were trained on historical ER arrival logs to predict hourly arrivals wit
 
 ---
 
-## 💡 Future Work
+## Future Work
 
 * **Remove incident_admincode_1** feature (potential data leakage) and retrain models.
 * Test additional models (e.g., Prophet, SARIMA, temporal fusion transformers).
